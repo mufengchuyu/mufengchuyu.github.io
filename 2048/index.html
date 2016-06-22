@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://act.play.cn/hd/h52048/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="./files/8e1258bb.main.css">
+    <link rel="stylesheet" href="./files/tinybox-index.css">
+    <link rel="stylesheet" href="./files/rank.src.css">
+    <title>测测你能将爱情进行到底吗？《情侣版2048》等你来挑战！</title>
+  </head>
+  <body>
+    <p style="display:none;"><img src="./files/logo2.png"></p>
+    <div id="game_2048" class="container" style="display: block; transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);">
+      <div class="heading">
+        <h1 class="title">情侣版2048</h1>
+        <div class="scores-container">
+          <div class="score-container">单身</div>
+          <div class="best-container">单身</div>
+        </div>
+      </div>
+      <div class="above-game">
+        <p class="game-intro">1.情侣版，你懂的。</p>
+        <p class="game-intro">2.传说中达成“相濡以沫”的情侣，都会白头到老呐！</p>
+      </div>
+      <div class="game-container">
+        <div class="game-message">
+          <p></p>
+          <div class="lower">
+            <a class="keep-playing-button">继续</a>
+            <a class="retry-button">分享</a>
+          </div>
+        </div>
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
+        </div>
+        <div class="tile-container"><div class="tile tile-2 tile-position-1-2 tile-new"><div class="tile-inner" style="font-size: 1.6rem; font-family: &#39;microsoft yahei&#39;; overflow: hidden;">搭讪</div></div><div class="tile tile-2 tile-position-4-1 tile-new"><div class="tile-inner" style="font-size: 1.6rem; font-family: &#39;microsoft yahei&#39;; overflow: hidden;">搭讪</div></div></div>
+      </div>
+      <div class="xc_add">
+          <a href="javascript:void(0)" class="btn_hd" style="display:none;">活动：抢1000元甜蜜大礼包！</a>
+          <div class="btn">
+              <a href="javascript:void(0)" class="abtn l btn_share">我要分享</a>
+              <a href="http://h5.play.cn/?CAF=5002" class="abtn r">更多游戏</a>
+          </div>
+      </div>
+    </div>
+    <div class="banner">
+        <div class="btn_close"><a href="javascript:void"><img src="./files/btn_close_index.png" width="20" height="20"></a></div>
+        <a href="http://h5.play.cn/?CAF=5003"><img src="./files/banner.png" width="80" height="80"></a>
+    </div> 
+    
+    <div id="bg-block"></div>
+    <!-- loading start -->
+      <div id="loading" style="transform-origin: 0px 0px 0px; transform: scale(1, 1); opacity: 0; display: none;">
+      <div id="mark">
+      <img width="84px" height="112px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAADgCAMAAACgnt2HAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABmUExURQAAAGReT+FyKP95Hv92HWReT/96HaloO2ReT2ReT2ReT/94HP9vF2ReT/90Hf6aL/9YNf9pGv+EEf9tGWReT/90Fv+BEv9+E/9mHP95Ff9xGf2dMv9uBf9kCP9dM/9vKv93Jf+PI2W+iG0AAAARdFJOUwCHBVaEba4XR9i3Nteb7N7pUfsH6wAADOhJREFUeNrtnWljqrwSgAUCCZseXNGjtf7/P/lmhRCSkCChPfc6H6ytgI+zZTIkdrP5P5K4TADIdru/nex2WQaSEv4eRphgQk73orLf789M9vvXFuPCXwApMwo8RS6XC6b9QdgS9JD7fa/GMSeVbZbEP0nJIY2gF1mycl3WOBlTTilU6HVFH4CZsPh+78vJ1LqOzTONMn04sVThvbXc6ZTpyXm5XLdhUY2YnpyX6/VaJcF9c4zpEvAKJ0EN46sxMGP6Gl5IBte0+nxOLMma6nyDE9sfBlCnHvMtzkWValfnjIBXZClPhdw79/sgCsWyXST8S6s6l+C8Xk8LmD9Zg/N0yt4dqMA6nJj0LUeNMzvm+4EkOE+nd/LUJOd+AU4BetrOJo13szjP8zgxaflvcGIpV+HEJPeBXH05Z1nfzz8vCuP9waSndeGcRerBqUJSzvtjCOvEOYMUTHHuzZSMU5b76eoIeqriGePRNKcWk0IOSfHvbpyeY1TpxqnBvG4rKtur5KkGtZ70AjzqJXu5xDkVTNIMk/sgMWmeVae7EfVkksQzMdk5L0NIU8MO01aSZu8OnO7pFDgEvEwJJi4MMetIqRZO14ByCCTJ6m4tujLrfICjWjhvN+DuoI6c7m0kCDrU0xTn7ZY4Z3oLZ++dfjVkj3qyGp6AOuT9ScN3nP6NDpidhPntnLdb9rbhhdnnzXJLHlb3Cc5p408Z/jrL6vLU+2QlFZy3bfzWkCQ435g1llvuqFbOqcjfOXG+Nw+H3PwToDc4P5I457vtoji7G6wvc9riKbYrlMd79n6vGOhJB5y3QzmhUGOe55xLtF8SHanCecjmKZRzgs1mOVILJwY1qtSu0AX12VvfymlUqVWh16X800Q65jwcoL9CmeGrJe+50Ni/2zgPwF+hbNhctI0dV0SlNwunXqXQplBm+IVvt8BtZ3wDp1alwNb9XjLgpdGUGP+gDyQmlcYQtkGJKrRa/p4QYCo1cuoyVDKp0AA3r+ItjSczpyZDZZbbSNcghu/yvoXzcIi1ljfMORfPTJJ+MGhj4TwkzpbnnYZAiwHgQVGpCpo5W54pNNsEEhJPBzPnyPZGy/OeSLDVFUOVjjmVuC8t9+GDKnSoUg2nkvNN2f7MQQMuVyEqbcycSs7f6S0vmnbVJqBkwvYHvUA1OVkUCkKClg23vZ6zSaZd9CxAw66pqpjtDZwNmHRRdr8jbCiJcDJzNpmaRc1d+iQsKMS2N3M2ByWWXvq7HuEtT21v5mwaOEz3hhVsoWOe276xgCbD4l4Pegkd87TQeOhVyjilaErMSxevYbN976RmThVUf/+QgIZfm6p1UsEphT1QQfv7nGu4KB2czJxNNchOhqW14bMojyYzZ9OYstN5CArCgybjsJdBYzfQJDxoOQKVOftEOgQ9K6ArrEiOGwV0wNmU2nx/VkHXWOWtgDYOoOcfAW0HoApnPzRJ2ek8Bl2BEyfSxsz5T4OefwFo4wB6/gWgjQPo+ReANg6gZz1ovAqohVMF1S60u66VR22gpTwymUHX2CsjihItZzsENSxdXGWshxxUz9kOxnrTEstVqqeSgRo421iuR/eGpaCr1KMJDfrGBDqo8PeGJaurVPiAgBo5q8Gc6WVYWntdI5FmD4vh22zQenqZlgA/HsHzU0xc1MjZgsG83gh6f4DwsdRYOCXQjQ700oFm4V3U7KBYykHv6WVc+/24h3dRG2cLB928l3GN+v1RhnZRK2er3GUyrqUP7qTJw8qZKR3nvXHR/2P7E5YXnC1QbjO9jJsTAtse2jnbwZsPnVTdOxE27sEEaKzcZ3qZN3vcg+b8ys45HMGhFE2a7Sghw0kbSj1nq7z1rosm3caZkPORys7ZKvHRO6l2h084lZYPO2erGkCA6vcihZs5VROcqoZiDmraNRVKpcmUQkcToYw6qXF31ylMLoXtBGc7Cg5qe8u2vjCFPpji1Bhy9/dl3X4YwvjlFGersSPO+Wfbtr4Axo+rKU6dGXHOf1m3Hy6/omjS8K22p5AZQLuNPUtPnJNJzlarmlJve2mr1LK9iGkHbQ3vpw8neVPXku0dTWZSOVvDKJPoQIe75JbrmMFqmtNoQI1K1f18S5G6cLbGYXus0vEOyaYMxOmhUKLS89R+49MSfurE2VrqoHKoUv322PdJSydOa4rJ/rps4Abx0vlTw9laC0soq9S83/idL2yIgRvnhN1A76W2fdFtsqR76jinxut493LbED/zq8WSpnEDnUwuJVfp5D7zOd+BBTNXTofBGrwmv6lDbDD3TKkQHFw5XQo1Zny3jfs+qBjTmbN1um75cuWkqLEzpjunY5UGXs6cZOv2dFjFSXbw4XSue7Nvd06qVtvXYUJGeTg0zqDOCQXuLj6cZFdKBRIYayBBdTj4cno4fvny5GRSZQAkSVKW+AGArLKsELJweo0lybcH6M26K8WXkwUSdE3SyU9xsu2HceU8PQPehvfmNGf6OPv+LueQrscJedr5/nbvImQ/xgm+ibjPzbO1HXTA+f10T1PgRzmfHi0k8JOcz6dHYyZZz0GzEefz6VGcJ2tx8gkjkDCfT5+uXLl9i9PV8MzKJH9KnM+nz3AKqxUctOQzFYXz+eUzM4tBaE4eRrBSMb++/FqyyXZJBzW5Z7kdc359+c3LYRYwkEpRsOk4v748p+VJKE4+kWFh9Bxzfvn244dKXSrgxTcc6dxTiHdTJqkWDyTRbTOZfZbxpfBfiFNMXzVZaSAzbsZAsJyDds2LZGvFnGN8jroEZ4c5pU4if2Y15CB4n7NvBSXf05xfXzPvb8VJ9ZaD9q2VsnLBnGl89g7ZXE7pe/a41R04v/7Mb8bHSebPKfepIK88XThnG79j3Xo46OB/oPhhYnn39lYJRrA6ygwM+tMdpjPnO8aXW2FSn2msyETpofaY7pxvGl/2A0j/n1CWsS9KrbIMgBEiw6y2WvkzIb/o/xJ95CMf+chHPvKRj3zkIx/5yD8l8IglGv8d1WNJzfNZmKaoO48cFtU1n6qhlAl9Pc3znB6d+oLWBDRXBF8FHTVScFKI6pycVqdQ+rxQXA8/SfGrCCHyp0icTcgRfRkfnfthRoWO52gCZZePU/lQzo4vVG/SoiAfoCjEZQsZ9IhQSj5HRB49QY9HG2heDIS8QjgLnZbJ8agemYC8EhEhJ6FC+cieoClShdsoGnsz0x1BSFHKntWsO0FUKYEWkArtW5Af5CX5I3r2Gojrp2PKjQWU+QTqDpKfQ/wQUUAp7FKKlRP1RtQsxFDIN5Z0hkdW0Lxn46S56PhA8js9CbGgROI8BJlD0dPrOdnJ5KJGUCRcj0nOzYiKQpyFAYtU/syELRXWLsjZkDmRJ2iRDoSryAQaiU/S25X8SlwU9rmCalT4b8S8lyk+Ik+QdzBtBA71ToFjAy1ky296BeMn2PEEaGfy3pO5xVNulsIftBbn552ON6Y8euxsLdPnwgkYLnkCazIk5LJ/9TFHEnE9ExR2l5oA7RQmgTIF5gw02nSuLExSSwmJJodaO2pb0xPRh3BN5q3kL2gGKBlYe1Cs0d6X5dwAeeJPFxmZanbxephge1Cd6QUSA2XxnY4Ln5iGmuzmC4DqgknxUdSHCXl3AUpGo4Ik/64Q6MiIoo/eoCRz5NFAJNMb0xMapqcuXcQCNB2O6Dk/iIxZJMb8h9AumPqxk//FmvD7kKVDYsyR640etDN9X0gd45mgdTfeTIDGAyftkwW5QtqBIlZs5VGv9nxY8W3marR7+wlQ/q58dVDej6f0fH0wFeLDRbM5O9BYWDSWQGsoS8RAaT1HakOImIFTPOvAkwuqMwqaK6CwryBEIp1XlOR8YKbP5KJEX+HDXJNeU2qAiCfJnNSP3QhKnaAzEMEuoggtUD2lGxMos3gcaUGjmPgp2tDDUG9gWpOgblzg1bPv5K4YC7sEysdSdDGUssldJ1iDhKomn+RIDkOiGqWg+DOgbgCL6zmgH/nI/1Lzp8so8HffVy+kAuhXg6Iuo6Sf3OKpOghTMsSlEdMc/gm5j+JaEKuTzlcheRn1QwA7CImfiJ2OojSYQ8NjQYb8lDzWdGjHT1IywsANHYZgzsoPUhlEXf2MBy5S6+VsmsHqhzrCDzkMBorfCVJIEj8FGQqLnIPSoY+A5jntfIlCg/Y+MS9+Gc9B+IEFgUyDjZaQlnnRkc5HEDymuMTDT7hGNww0ZVMLDlrzwi0vWD2TsgMR5fadGXuAslkD7dCgrkkzBKUvdxB5Lp1Jf3BQtCZoypuRvxy0fx/F9Ky6Vkyfs8hCPwCKIwI7aVoroBDPqSGu3SNceSL+W4oRa/yTeOoPgMKC17kD0A2ic3V8KNUt4j1G1hmC64BuYP8I+Zxf+ns/LiAGwbt0aPhTucaP302LNv+E/DOgm3zpUec/BUHXTtQg8kYAAAAASUVORK5CYII=">
+      <div class="bar emtpy-bar"></div>
+      <div class="bar loading-bar" style="width: 80%;"></div>
+      </div>
+    </div>
+    <!-- loading end -->
+
+    <script src="./files/hm.js"></script><script src="./files/8591ecd7.main.js"></script>
+ 
+    
+    <script type="text/javascript">
+      var _my_list = {
+          "0": "单身",
+          "2": "搭讪",
+          "4": "暧昧",
+          "8": "约会",
+          "16": "表白",
+          "32": "恋爱",
+          "64": "牵手",
+          "128": "拥抱",
+          "256": "接吻",
+          "512": "XXOO",
+          "1024": "求婚",
+          "2048": "小恩爱",
+          "4096": "相濡以沫"
+        };
+      var _my_mark = {
+          "0": "屌丝还是洗洗睡吧！",
+          "2": "搭讪失败？别拿板砖当道具啦！",
+          "4": "暧昧是把双刃剑，大声说出爱吧！",
+          "8": "约会失败？是你不够主动吧！",
+          "16": "没关系，失败是成功的妈妈！",
+          "32": "恋爱告吹，挥手别说再见！",
+          "64": "牵手失败？心急吃不了热豆腐！",
+          "128": "折在拥抱上，该减肥了吧！",
+          "256": "再多学一点接吻技巧吧！",
+          "512": "厄，这个我也帮不了你！",
+          "1024": "没点创意，怎能轻易答应！",
+          "2048": "终于等到你，还好我没放弃！",
+          "4096": "相濡以沫，人生最美不过如此！"
+        };
+      var _my_goal = 2048;
+      var _my_win  = "恭喜，你们已经幸福小恩爱了";
+      
+
+      document.body.addEventListener("touchmove", function (i) {
+        event.preventDefault(); // 禁止 iOS 下拉
+      });
+
+      $().ready(function() {
+        if (androidVersion < 4) {
+          $('head').append("<link rel='stylesheet' href='http://99.h5gwyx.sinaapp.com/resource/css/android2.min.css'>");
+        }
+        window.requestAnimationFrame(function() {
+          new GameManager(4, KeyboardInputManager, HTMLActuator, LocalStorageManager);
+          endLoading();
+        });
+        $('#game_2048').show();
+      });
+    </script>
+    <script src="./files/75ebe387.common.js"></script>
+    
+    <script type="text/javascript">
+      startLoading();
+    </script>
+    <script type="text/javascript">
+      //数据
+      var _best_score = {"score":"单身","score_number":0};
+      var _game_info = {
+          "id": "2048",
+          "series": "2048",
+          "name": "2048",
+          "summary": "2048智力小游戏",
+          "online": "1",
+          "weight": "0",
+          "fake_score": "a:10:{i:0;i:4;i:1;i:64;i:2;i:128;i:3;i:128;i:4;i:256;i:5;i:512;i:6;i:512;i:7;i:512;i:8;i:1024;i:9;i:2048;}",
+          "share_gameover": "0"
+        };
+      $().ready(function() {
+        //全局初始化
+        globalInit(1);
+      });
+    </script>
+    <script type="text/javascript">
+    var haveShare=1; // 是否需要分享按钮
+    var haveGamelist=1; // 是否需要更多游戏按钮
+    var resourceCDN = 'http://meiriq-file.b0.upaiyun.com/autobox/home/games/2048/'; // cdn资源地址
+    var gameID = 6;
+    var gameTitle = '测测你能将爱情进行到底吗？挑战《情侣版2048》 赢千元甜蜜大礼包';
+    var gameIconUrl = 'http://meiriq-file.b0.upaiyun.com/autobox/20150123/ccb396d5.png';
+    var gameDetail = 'XXOO隐藏情节，一般人我不告诉他。 每日Q游戏';
+    var gameResult = '我玩到{score}，据说有XXOO隐藏情节，一般人我不告诉他。 每日Q游戏';
+    var gameLink = "http://autobox.meiriq.com/source/6/a569bc87/share";
+    </script>
+    <script type="text/javascript">
+        var have_start = false;
+        /*meiriqMenu.close();*/
+        function cb_start(){
+            console.log('cb_start');
+        }
+        function cb_gameover(score){
+            $.post("http://autobox.meiriq.com/playtimes?game=6&app=260", { "random": score },
+            function(data){}, "json");
+            gameDetail = gameResult.replace(/{score}/, score);
+            console.log("cb_gameover"+score);
+        }
+        function cb_finishload(){
+            console.log('cb_finishload');
+            $.post("http://autobox.meiriq.com/finishload?game=6&app=260");
+        }
+        function cb_restart(){
+            //meiriqMenu.close();
+            console.log('cb_restart');
+        }
+        function cb_share(){
+            console.log('cb_share');
+            $('#meiriq-share').fadeIn(50);
+            $('#meiriq-share').click(function(){
+                $(this).fadeOut(50);
+            });
+        }
+
+        function cb_menu_more(){
+            window.location = 'http://autobox.meiriq.com/list/a569bc87';
+        }
+
+        function cb_more(){
+            console.log('cb_more');
+            window.location = 'http://autobox.meiriq.com/list/a569bc87';
+    
+        }
+        function cb_quit(){
+            console.log('cb_quit');
+            window.location = 'http://autobox.meiriq.com/list/a569bc87';
+        }
+</script>
+<!-- 微信分享提示页 -->
+<script src="./files/zepto.min.js"></script>
+<div id="meiriq-share" style="opacity: 0; display: none;">
+  <div id="meiriq-share-mask">
+    <div id="meiriq-share-image">
+      <img src="./files/share.png">
+    </div>
+  </div>
+</div>
+<script src="./files/tinybox.js"></script>
+<script src="./files/xuancai.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?86dd9c7cd061c5119881fc614c5352e8";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+  
+</body></html>

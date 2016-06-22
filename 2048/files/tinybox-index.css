@@ -1,0 +1,90 @@
+
+.tbox {position:fixed; display:none; /* padding:14px 17px; */ z-index:900;}
+.tmask {position:absolute; display:none; top:0px; left:0px; height:100%; width:100%; background:#000; z-index:800}
+.tclose {
+position: absolute;
+right: 0;
+top: -6px;
+width: 32px;
+height: 32px;
+background: url("../images/btn_close_index.png");
+background-size: 100%;
+z-index: 100;
+}
+.box-content{
+	width: 232px;
+	padding: 8px 10px 25px 12px;
+	background: #fff;
+	border-radius: 8px;
+	border: 8px solid #a04358;
+}
+
+.box-content .t{
+	font-size: 18px;
+	font-weight: bold;
+	color: #464646;
+	line-height: 42px;
+	text-align: center;
+	margin-bottom: 0;
+
+}
+.box-content .detail p{
+	font-size: 12px;
+	color: #464646;
+	line-height: 20px;
+	margin-bottom: 0;
+}
+.box-content .detail .link{
+	color: red;
+}
+
+
+/* 炫彩页面添加内容样式 */
+.xc_add{
+	margin-top: 10px;
+	text-align: center;
+}
+.xc_add a{
+	color: red;
+}
+.xc_add .btn{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	height: 30px;
+}
+.xc_add .btn .abtn{
+	display: inline-block;
+	width: 120px;
+	height: 49px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	background: url(../images/btn.png) no-repeat;
+	background-size: cover;
+	text-decoration: none;
+}
+.l{
+	float: left;
+}
+.r{
+	float: right;
+}
+.banner{
+	width: 80px;
+	height: 80px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	/* margin-top: 10px; */
+}
+.banner .btn_close{
+	position: absolute;
+	top: -10px;
+	right: 0px;
+	z-index: 100;
+}
+.game-intro a{
+	color: red;
+}
